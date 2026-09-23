@@ -12,6 +12,7 @@ def checkmate(board):
                 king_col = c
 
     if king_row == -1:
+        print("Fail")
         return
 
     # Rook / Queen
